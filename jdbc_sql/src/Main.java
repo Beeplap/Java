@@ -13,7 +13,6 @@ public class Main {
         Connection conn = DriverManager.getConnection(URL, USER, PASS);
         Scanner scanner = new Scanner(System.in);
 
-        // 1. Add student
         System.out.println("=== Add Student ===");
         System.out.print("Enter Student ID: ");
         int id = scanner.nextInt();
@@ -26,7 +25,6 @@ public class Main {
         String contact = scanner.nextLine();
         addStudent(conn, id, name, address, contact);
 
-        // 2. Update student
         System.out.println("\n=== Update Student ===");
         System.out.print("Enter new Name: ");
         String newName = scanner.nextLine();
@@ -36,11 +34,9 @@ public class Main {
         String newContact = scanner.nextLine();
         updateStudent(conn, id, newName, newAddress, newContact);
 
-        // 3. Delete student
         System.out.println("\n=== Delete Student ===");
         deleteStudent(conn, id);
 
-        // 4. Show all students
         System.out.println("\n=== Remaining Students ===");
         showAllStudents(conn);
 
@@ -95,6 +91,8 @@ public class Main {
                     rs.getString("name"),
                     rs.getString("address"),
                     rs.getString("contact"));
+
+
         }
     }
 }
