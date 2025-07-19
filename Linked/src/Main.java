@@ -93,7 +93,6 @@ public class Main extends JFrame {
         gbc.gridx = 0; gbc.gridy = 0; gbc.gridwidth = 4;
         add(title, gbc);
 
-        // Add Node
         addField = new JTextField(5);
         addField.setFont(font);
         JButton addButton = new JButton("Add Node");
@@ -106,7 +105,6 @@ public class Main extends JFrame {
         gbc.gridx = 2;
         add(addButton, gbc);
 
-        // Delete Node
         deleteField = new JTextField(5);
         deleteField.setFont(font);
         JButton deleteButton = new JButton("Delete Value");
@@ -119,7 +117,6 @@ public class Main extends JFrame {
         gbc.gridx = 2;
         add(deleteButton, gbc);
 
-        // Insert Node
         insertIndexField = new JTextField(3);
         insertDataField = new JTextField(5);
         insertIndexField.setFont(font);
@@ -138,13 +135,11 @@ public class Main extends JFrame {
         gbc.gridx = 2; gbc.gridy = 4;
         add(insertButton, gbc);
 
-        // Display button
         JButton displayButton = new JButton("Show List");
         styleButton(displayButton);
         gbc.gridx = 1; gbc.gridy = 4;
         add(displayButton, gbc);
 
-        // Output area
         displayArea = new JTextArea(10, 45);
         displayArea.setFont(new Font("Consolas", Font.PLAIN, 14));
         displayArea.setEditable(false);
@@ -153,7 +148,6 @@ public class Main extends JFrame {
         gbc.gridx = 0; gbc.gridy = 5; gbc.gridwidth = 4;
         add(scroll, gbc);
 
-        // Button actions
         addButton.addActionListener(e -> {
             try {
                 int val = Integer.parseInt(addField.getText());

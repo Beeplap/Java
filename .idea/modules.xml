@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Date/Date.iml" filepath="$PROJECT_DIR$/Date/Date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaDatabase/JavaDatabase.iml" filepath="$PROJECT_DIR$/JavaDatabase/JavaDatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linked/Linked.iml" filepath="$PROJECT_DIR$/Linked/Linked.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Start/Start.iml" filepath="$PROJECT_DIR$/Start/Start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc_sql/jdbc_sql.iml" filepath="$PROJECT_DIR$/jdbc_sql/jdbc_sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paint app/paint app.iml" filepath="$PROJECT_DIR$/paint app/paint app.iml" />
+    </modules>
+  </component>
+</project>
